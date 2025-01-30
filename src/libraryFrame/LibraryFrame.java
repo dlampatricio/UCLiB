@@ -1963,7 +1963,7 @@ public class LibraryFrame extends javax.swing.JFrame {
         String stockHeaders[] = {"Title", "Authors", "Subject", "Number", "Year", "Volume", "Availability"};
         String bannedUsersHeaders[] = {"User", "Rights Refund Date"};
         String loansHeaders[] = {"Book", "User", "Start Date", "Due Date"};
-        String usersHeaders[] = {"Type", "Name", "ID", "Faculty", "Department", "Group", "Specilaty"};
+        String usersHeaders[] = {"Type", "Name", "ID", "Faculty", "Department", "Group", "Specialty"};
 
         itemTable.setColumnIdentifiers(stockHeaders);
         bannedUsers.setColumnIdentifiers(bannedUsersHeaders);
